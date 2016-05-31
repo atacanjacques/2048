@@ -1,0 +1,64 @@
+body{
+font-family: Helvetica, Arial, Verdana;
+background-color:#FAF8EF;
+
+margin:20px;
+}
+
+#grille{
+width:460px;
+height:460px;
+margin:auto;
+padding:10px;
+background-color:#BBADA0;
+box-sizing:border-box;
+border-radius:6px;
+}
+
+#grille div{
+margin:5px;
+width:100px;
+height:100px;
+float:left;
+font-size:40px;
+line-height: 100px;
+vertical-align:middle;
+text-align:center;
+font-weight:bold;
+border-radius:3px;
+}
+
+.conteneur{
+width:460px;
+margin:auto;
+margin-bottom:20px;
+}
+
+.conteneur button{
+width:460px;
+padding:10px;
+border:0;
+border-radius:6px;
+background-color:#CDC0B4;
+color:#776E65;
+font-size:24px;
+font-weight:bold;
+}
+
+.conteneur button:hover{
+color:#F9F6F2;
+}
+
+#grille div{background-color:#EDC22E;color:#F9F6F2;}
+.num0{background-color:#CDC0B4!important;color:#776E65!important;}
+.num2{background-color:#EEE4DA!important;color:#776E65!important;}
+.num4{background-color:#EDE0C8!important;color:#776E65!important;}
+.num8{background-color:#F2B179!important;color:#F9F6F2!important;}
+.num16{background-color:#F59563!important;color:#F9F6F2!important;}
+.num32{background-color:#F67C5F!important;color:#F9F6F2!important;}
+.num64{background-color:#F65E3B!important;color:#F9F6F2!important;}
+.num128{background-color:#EDCC61!important;color:#F9F6F2!important;}
+.num256{background-color:#EDC850!important;color:#F9F6F2!important;}
+.num512{background-color:#EDC850!important;color:#F9F6F2!important;}
+.num1024{background-color:#EDC53F!important;color:#F9F6F2!important;}
+.num2048{background-color:#EDC22E!important;color:#F9F6F2!important;}
